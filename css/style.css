@@ -1,0 +1,300 @@
+header::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+header {
+    background: url("../bg-masthead.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+.header-data {
+    text-align: center;
+}
+
+.header-data h1 {
+    font-size: 35px;
+    position: relative;
+    color: #fff;
+    padding: 100px 439px 10px 421px;
+}
+
+.header-data hr {
+    color: orangered;
+    border: 1px solid orangered;
+    width: 60px;
+    position: relative;
+}
+
+.header-data p {
+    color: #fff;
+    position: relative;
+    padding: 0px 250px;
+    margin-bottom: 40px;
+    font-size: 23px;
+    /* line-height: 8px; */
+}
+
+.header-data a {
+    color: white;
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 45px;
+    position: relative;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.service-data {
+    background-color: orangered;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+.service-data h1 {
+    color: antiquewhite;
+    position: relative;
+    padding-top: 75px;
+    font-size: 35px;
+}
+
+.service-data hr {
+    color: antiquewhite;
+    width: 50px;
+    position: relative;
+    border: 2px solid white;
+}
+
+.service-data p {
+    color: antiquewhite;
+    position: relative;
+    padding: 8px 278px;
+    font-size: 18px;
+}
+
+.service-data a {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* <!-- <------section new---> */
+section h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+section hr {
+    width: 50px;
+    border: 2px solid orangered;
+}
+
+.row {
+    margin-top: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row i {
+    font-size: 45px;
+    color: orangered;
+    padding-bottom: 15px;
+}
+
+.row p {
+    padding-left: 32px;
+    padding-right: 18px;
+}
+
+#box {
+    padding: 45px 0;
+}
+
+.inner-gellery {
+    width: 33.33%;
+    position: relative;
+}
+
+.inner-gellery img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#img-hover {
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-hover h4 {
+    color: #fff;
+    font-size: 25px;
+}
+
+#img-hover p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.inner-gellery:hover img {
+    opacity: 0.1;
+}
+
+.inner-gellery:hover #img-hover {
+    opacity: 1;
+}
+
+.box-data {
+    background-color: rgb(10, 10, 24);
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+
+.box-data h1 {
+    color: white;
+    position: relative;
+    font-size: 40px;
+    padding-top: 130px;
+}
+
+.box-data a {
+    background-color: white;
+    padding: 18px;
+    border-radius: 50px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    top: 40px;
+}
+
+.login-page {
+    text-align: center;
+}
+
+.login-page h1 {
+    font-size: 35px;
+    color: black;
+    margin-top: 100px;
+}
+
+.login-page hr {
+    width: 50px;
+    border: 2px solid orangered;
+    margin-top: 20px;
+}
+
+.login-page p {
+    color: black;
+    font-size: 20px;
+    padding: 10px 345px;
+}
+
+#submit {
+    background-color: orangered;
+    border-radius: 50px;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icon i {
+    font-size: 55px;
+}
+
+@media(max-width:500px) {
+    .header-data h1 {
+        font-size: 30px;
+        width: 100%;
+        padding: 0;
+        padding: 20px 50px;
+        margin-top: 50px;
+    }
+
+    .header-data p {
+        font-size: 18px;
+        padding: 0;
+        margin: 38px 22px;
+    }
+
+    header {
+        height: 650px;
+    }
+
+    header::before {
+        height: 100%;
+    }
+
+    .header-data a {
+        padding: 10px 7px;
+        text-transform: uppercase;
+    }
+
+    .service-data h1 {
+        padding: 0;
+        top: 38;
+        font-size: 28px;
+        padding: 80px 18px;
+    }
+
+    .service-data hr {
+        margin-top: -91px;
+        top: 20px;
+    }
+
+    .service-data p {
+        padding: 0 10px;
+        font-size: 17px;
+        margin: 37px 21px;
+    }
+
+    .inner-gellery {
+        width: 100%;
+    }
+
+    .login-page h1 {
+        margin-top: 50px;
+    }
+
+    .login-page p {
+        padding: 0;
+    }
+
+    section h2 {
+        font-size: 35px;
+    }
+
+}
